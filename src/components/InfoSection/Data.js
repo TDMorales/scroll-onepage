@@ -1,4 +1,6 @@
 import svg1 from '../../assets/images/svg-1.svg'
+import svg2 from '../../assets/images/svg-2.svg'
+
 
 export const homeObjOne = {
     id: 'about',
@@ -15,4 +17,21 @@ export const homeObjOne = {
     dark: true,
     primary: true,
     darkText: false
+}
+
+export const homeObjTwo = {
+    id: 'discover',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: "Partner Programs",
+    headline: "Discover solutions for investing in your new business",
+    description: "Speak with our award-winning team of financial experts to custom build long-term or short-term investment plans.",
+    buttonLabel: "Get Started",
+    imgStart: true,
+    img: svg2,
+    alt: "Car",
+    dark: false,
+    primary: false,
+    darkText: true
 }
