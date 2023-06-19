@@ -1,5 +1,6 @@
 import svg1 from '../../assets/images/svg-1.svg'
 import svg2 from '../../assets/images/svg-2.svg'
+import svg3 from '../../assets/images/svg-3.svg'
 
 
 export const homeObjOne = {
@@ -31,6 +32,23 @@ export const homeObjTwo = {
     imgStart: true,
     img: svg2,
     alt: "Car",
+    dark: false,
+    primary: false,
+    darkText: true
+}
+
+export const homeObjThree = {
+    id: 'sign-up',
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
+    topLine: "Join Our Team",
+    headline: "Creating an account is as easy as 1-2-3",
+    description: "Get everything set up and ready in minutes! All you need to do is add your information and you're good to go.",
+    buttonLabel: "Sign Up",
+    imgStart: false,
+    img: svg3,
+    alt: "SignUp",
     dark: false,
     primary: false,
     darkText: true
