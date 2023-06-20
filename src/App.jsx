@@ -1,11 +1,14 @@
 import './App.css'
-import { BrowserRouter as Router } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom'
 import Home from './pages/Home'
+import SignIn from './pages/SignIn'
+
 function App() {
   return (
-    <Router>
-      <Home />
-    </Router>
+    <Routes>
+      <Route path='/' element={<Home />} exact />
+      <Route path='/signin' element={<SignIn />} exact />
+    </Routes>
   )
 }
 

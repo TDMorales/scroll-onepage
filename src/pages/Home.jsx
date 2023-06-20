@@ -5,6 +5,7 @@ import HeroSection from '../components/HeroSection/HeroSection'
 import InfoSection from '../components/InfoSection/InfoSection'
 import ServicesSection from '../components/ServicesSection/ServicesSection'
 import { homeObjOne, homeObjTwo, homeObjThree } from '../components/InfoSection/Data'
+import Footer from '../components/Footer/Footer'
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -23,6 +24,7 @@ const Home = () => {
             <InfoSection {...homeObjTwo} />
             <ServicesSection />
             <InfoSection {...homeObjThree} />
+            <Footer />
         </>
     )
 }
